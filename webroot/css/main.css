@@ -1,0 +1,155 @@
+.m-hover:hover {
+  cursor: pointer;
+}
+.i-minus-entity {
+  display: none;
+}
+.new-entity-master {
+  padding: 8px 12px;
+}
+.navbar.navbar-footer {
+  background-color: #7E7E7E;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.navbar.navbar-footer .n-f {
+  padding-top: 10px;
+  color: #ffffff;
+}
+#message-error {
+  position: fixed;
+  top: 30%;
+  width: 470px;
+  z-index: 9999;
+}
+#message-error #m-close {
+  text-align: right;
+}
+#message-error #m-close > i:hover {
+  cursor: pointer;
+}
+#msg-error {
+  position: fixed;
+  top: 30%;
+  left: 32%;
+  width: 470px;
+  z-index: 9999;
+}
+#msg-error #m-close {
+  text-align: right;
+}
+#msg-error #m-close > i:hover {
+  cursor: pointer;
+}
+.typeahead > li {
+  border-top: 1px solid #ddd;
+}
+.typeahead > li:nth-child(2n+1) {
+  background: #f9f9f9;
+}
+.typeahead > li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.box-hl .box-hl-content .bx-name {
+  color: #6B6B6B;
+  font-size: 12px;
+  font-weight: bold;
+}
+.box-hl .box-hl-content .bx-path {
+  color: #D1D1D1;
+  font-size: 12px;
+  font-weight: bold;
+}
+.myTag {
+  margin: 2px;
+  padding: 2px 6px;
+  background-color: #8CBAD1;
+  color: #ffffff;
+}
+.myTag .myTagRemover {
+  color: #ffffff;
+}
+.ace-file-input .file-label::before {
+  background-color: #ffffff !important;
+}
+.btn-fileup {
+  color: #438eb8;
+}
+.btn-fileup i {
+  color: #000000;
+}
+.btn-fileup:hover {
+  cursor: pointer;
+  color: #6fb4de;
+}
+.btn-whites {
+  background-color: #ffffff !important;
+  border: 0px solid #ffffff !important;
+}
+.btn-whites:hover {
+  background-color: #ffffff !important;
+  border: 0px solid #ffffff !important;
+}
+.view-cmt:hover {
+  cursor: pointer;
+}
+.timeline-info-date {
+  margin: 3px;
+  border: 1px solid #acbac3;
+  background-color: #ffffff;
+}
+.timeline-info-date span:nth-child(1) {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+.n-red:hover {
+  color: #dd5a43 !important;
+}
+.n-green:hover {
+  color: #69aa46!important;
+}
+.tag-communication a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.tag-communication a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.abc {
+  padding: 0 5px;
+}
+.abc.active {
+  font-weight: bold;
+  font-size: 14px;
+}
+.abc:hover {
+  font-weight: bold;
+  font-size: 14px;
+}
+.border-approve {
+  border-left: 3px solid #5cb85c !important;
+}
+.border-reject {
+  border-left: 3px solid #d9534e !important;
+}
+.label-reject {
+  background-color: #d9534e !important;
+}
+.label-approve {
+  background-color: #5cb85c !important;
+}
+.modal.large {
+  width: 90%;
+  /* desired relative width */
+
+  left: 5%;
+  /* (100%-width)/2 */
+
+  /* place center */
+
+  margin-left: auto;
+  margin-right: auto;
+}

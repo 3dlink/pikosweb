@@ -1,0 +1,15 @@
+#flashMessage{
+	width: 28%;
+	text-align: center;
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+	margin-left: 36%;
+	border: solid 5px;
+	border-color: rgb(57, 69, 87);
+	background: rgb(247, 247, 247);
+}
+
+.widget-main{
+	margin-top: 10%;
+}
