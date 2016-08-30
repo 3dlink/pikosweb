@@ -1,7 +1,8 @@
 <?php
-// require_once('lib/mercadopago.php');
+require_once('lib/mercadopago.php');
 
 // $mp = new MP ("100639272584397", "4E4bpifEGAluv9WUVZXy7Ck5wDGCtnKe");
+$mp = new MP ("525587340391096", "ulVNxGROnmEenOWwHfMmQr51n3nMmL3o");
 App::uses('AppController', 'Controller','CakeEmail', 'Network/Email');
 
 class StartController extends AppController {
@@ -271,7 +272,7 @@ class StartController extends AppController {
 
 	public function mercadopago(){
 		$this->autoRender = false;
-		$mp = new MP('100639272584397', '4E4bpifEGAluv9WUVZXy7Ck5wDGCtnKe');
+		$mp = new MP('525587340391096', 'ulVNxGROnmEenOWwHfMmQr51n3nMmL3o');
 
 		if(isset($_POST['data'])){
 			$data=$_POST['data'];
