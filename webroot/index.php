@@ -52,7 +52,7 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /app/webroot/index.php
  */
-define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'pikos' .DS . 'cakephp'. DS . 'lib');
+define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'pikosweb' .DS . 'cakephp'. DS . 'lib');
 //define('CAKE_CORE_INCLUDE_PATH', DS . 'Applications' . DS . 'XAMPP' . DS . 'xamppfiles'. DS . 'htdocs' . DS . 'cakephp-2.5.5' . DS . 'lib');
 ///Applications/XAMPP/xamppfiles/htdocs
 /**
